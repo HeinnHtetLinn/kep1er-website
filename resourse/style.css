@@ -1,0 +1,90 @@
+#home-bg-video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background: url(./kepler.mp4)no-repeat;
+    background-size: cover;}
+
+#home-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.802);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+}
+.logo{
+    color: #fff;
+    font-family: 'Cormorant Garamond';
+    margin: 0;
+
+}
+.logo:hover{
+    color: #6001d2;
+}
+footer{
+        position: absolute;
+        bottom:45px;
+        left: 11%;
+}
+
+ul  li  i {
+    font-size:25px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    transition: all 0.5s;
+
+}
+ul li .fb:hover{
+    color:#3b5998;
+    padding-left: 30px;
+}
+ul li .tw:hover{
+    color :#1da1f2;
+    padding-left: 30px;
+}
+ul li .in:hover{
+    color: #7232bd;
+    padding-left: 30px;
+
+}
+ul li .yt:hover{
+    color:  #ff0000;
+    padding-left: 30px;
+}
+
+.copyright{
+    position: relative;
+    right: 0;
+    color: #fff;
+    font-weight: 100;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.copyright:hover{
+    color: #6001d2;
+    padding-left: 20px;
+}
+ul li .menu:hover,
+ul li .menu:active{
+    background-color: transparent;
+    
+}
+.about{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    color: #fff;
+}
+hr{
+    position: relative;
+    width: 380px;
+    left: 380px;
+}
